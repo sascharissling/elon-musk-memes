@@ -13,7 +13,7 @@ export default function GlobalStyles() {
         body {
           margin: 0;
           font-family: "Roboto Slab", serif;
-          background: #2e303d;
+          background: linear-gradient(to right, #dd3e54, #6be585);
         }
       `}
     />
