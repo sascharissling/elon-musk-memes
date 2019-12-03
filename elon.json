@@ -1,0 +1,32 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "img": "https://i.imgur.com/T3KlU0U.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://images7.memedroid.com/images/UPLOADED688/5d345419be2d7.jpeg"
+    },
+    {
+      "id": 3,
+      "img": "https://www.trustnodes.com/wp-content/uploads/2019/04/elon-musk-meme.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://i.kym-cdn.com/photos/images/newsfeed/001/408/285/793.png"
+    },
+    {
+      "id": 5,
+      "img": "https://stayhipp.com/wp-content/uploads/2018/10/elon-musk-memes-.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://images.news18.com/ibnlive/uploads/2019/01/elon-musk-pewdiepie.png"
+    },
+    {
+      "id": 7,
+      "img": "https://www.liveabout.com/thmb/9WeRrkS6X3DCCTYVZdKjnhSd3HQ=/659x640/filters:no_upscale():max_bytes(150000):strip_icc()/ElonMuskmemes13-3e7101b32f38423a89ad7e917c3bbff8.jpg"
+    }
+  ]
+}
