@@ -9,14 +9,14 @@ const AppContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 `;
 
 const SubmitButton = styled.button`
-  width: 55%;
-  height: 15%;
+  width: 30%;
+  height: 10%;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 2rem;
   background: transparent;
   border-radius: 15px;
   background: linear-gradient(to right, #544a7d, #ffd452);
@@ -34,7 +34,7 @@ const RandomButton = styled.button`
   height: 15%;
   font-family: monospace;
   background: transparent;
-  font-size: 40px;
+  font-size: 4rem;
   border-radius: 15px;
   background: linear-gradient(to top, #8a2387, #e94057, #f27121);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -46,6 +46,12 @@ const RandomButton = styled.button`
   }
 `;
 
+const Elon = styled.img`
+  width: 70%;
+  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+`;
+
 //STYLE End
 
 function App() {
@@ -53,8 +59,9 @@ function App() {
     <>
       <GlobalStyles />
       <AppContainer>
-        <SubmitButton>SUBMIT</SubmitButton>Elon Meme
-        <RandomButton>RANDOM</RandomButton>
+        <SubmitButton>SUBMIT</SubmitButton>
+        <Elon src="https://i.imgur.com/T3KlU0U.jpg" />
+        <RandomButton>GIVE</RandomButton>
       </AppContainer>
     </>
   );
