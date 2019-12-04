@@ -16,7 +16,7 @@ const SubmitButton = styled.button`
   width: 30%;
   height: 10%;
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: transparent;
   border-radius: 15px;
   background: linear-gradient(to right, #544a7d, #ffd452);
