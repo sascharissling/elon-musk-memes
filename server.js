@@ -1,7 +1,14 @@
 const MongoClient = require("mongodb").MongoClient;
+const dotenv = require("dotenv");
+dotenv.config();
+
+const express = require("express");
+const app = express();
+
+app.use(express.json());
 
 // Connection URL
-const url = "mongodb://localhost:27017";
+const url = process.env.MONGO_URL;
 
 // Database Name
 const dbName = "elon";
@@ -14,12 +21,13 @@ async function initDb() {
   await client.connect();
   console.log("Connected successfully to server");
   const db = client.db(dbName);
+  const memeCollection = db.collection("memes");
 
-  const cursor = db.collection("users").find();
-  const profiles = await cursor.toArray();
-  console.log(profiles);
+  const cursor = memeCollection.find({}, { fields: { tags: false } });
 
-  client.close();
+  const memes = await cursor.toArray();
+
+  console.log(memes);
 }
 
 initDb();
